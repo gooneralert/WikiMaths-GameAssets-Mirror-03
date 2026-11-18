@@ -1,0 +1,75 @@
+{
+  "slug": "plants-vs-zombies-goty-edition",
+  "title": "Plants vs. Zombies GOTY Edition",
+  "type": "HTML",
+  "developer": " PopCap Games, Inc.",
+  "description": "Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and cherry bombs, you'll need to think fast and plant faster to stop dozens of types of zombies dead in their tracks.",
+  "tags": [
+    "2D",
+    "Casual",
+    "Comedy",
+    "Singleplayer",
+    "Strategy",
+    "Tower Defense"
+  ],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "8524dfb8-2e99-409f-8c2d-519bc8fca259",
+  "sourceVersion": "1",
+  "sourceUrl": "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/index.html",
+  "baseUrl": "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/",
+  "entry": "/index.html",
+  "entryUrl": "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/index.html",
+  "status": "done",
+  "sizeBytes": 51416527,
+  "assetCount": 24,
+  "known404": [
+    "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/main.pak",
+    "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.wav",
+    "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.mp3",
+    "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.ogg"
+  ],
+  "failed": [
+    {
+      "url": "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/main.pak",
+      "error": "HTTP 404 for https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/main.pak",
+      "status": 404
+    },
+    {
+      "url": "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.wav",
+      "error": "HTTP 404 for https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.wav",
+      "status": 404
+    },
+    {
+      "url": "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.mp3",
+      "error": "HTTP 404 for https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.mp3",
+      "status": 404
+    },
+    {
+      "url": "https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.ogg",
+      "error": "HTTP 404 for https://playobsidian.com/cdn/assets/html/8524dfb8-2e99-409f-8c2d-519bc8fca259/1/.ogg",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-10-26T10:36:09.398Z",
+  "verifiedAt": "2026-11-16T15:53:41.116Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Plants vs. Zombies GOTY Edition",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 800,
+      "height": 600
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 0.9903,
+    "rendered": true
+  }
+}

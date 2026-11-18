@@ -1,0 +1,14 @@
+{
+  "/favicon.ico": "/__site__/favicon.ico",
+  "/games/celeste3d/Build/build.data": "/Build/build.data",
+  "/games/celeste3d/Build/build.framework.js": "/Build/build.framework.js",
+  "/games/celeste3d/Build/build.loader.js": "/Build/build.loader.js",
+  "/games/celeste3d/Build/build.wasm": "/Build/build.wasm",
+  "/games/celeste3d/index.html": "/index.html",
+  "https://truffled.lol/favicon.ico": "/__site__/favicon.ico",
+  "https://truffled.lol/games/celeste3d/Build/build.data": "/Build/build.data",
+  "https://truffled.lol/games/celeste3d/Build/build.framework.js": "/Build/build.framework.js",
+  "https://truffled.lol/games/celeste3d/Build/build.loader.js": "/Build/build.loader.js",
+  "https://truffled.lol/games/celeste3d/Build/build.wasm": "/Build/build.wasm",
+  "https://truffled.lol/games/celeste3d/index.html": "/index.html"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "into-space-2",
+  "title": "Into Space 2",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/is2/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/is2/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/intospace2.webp",
+  "baseUrl": "https://truffled.lol/games/is2/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/is2/index.html",
+  "status": "done",
+  "sizeBytes": 40153561,
+  "assetCount": 6,
+  "known404": [
+    "https://ubghyper.github.io/GameList.github.io/ruffle/.js",
+    "https://ubghyper.github.io/GameList.github.io/ruffle/.wasm",
+    "https://ubghyper.github.io/GameList.github.io/ruffle/.swf",
+    "https://ubghyper.github.io/GameList.github.io/ruffle/movie.swf",
+    "https://ubghyper.github.io/GameList.github.io/ruffle/saves.zip"
+  ],
+  "failed": [
+    {
+      "url": "https://ubghyper.github.io/GameList.github.io/ruffle/.js",
+      "error": "HTTP 404 for https://ubghyper.github.io/GameList.github.io/ruffle/.js",
+      "status": 404
+    },
+    {
+      "url": "https://ubghyper.github.io/GameList.github.io/ruffle/.wasm",
+      "error": "HTTP 404 for https://ubghyper.github.io/GameList.github.io/ruffle/.wasm",
+      "status": 404
+    },
+    {
+      "url": "https://ubghyper.github.io/GameList.github.io/ruffle/.swf",
+      "error": "HTTP 404 for https://ubghyper.github.io/GameList.github.io/ruffle/.swf",
+      "status": 404
+    },
+    {
+      "url": "https://ubghyper.github.io/GameList.github.io/ruffle/movie.swf",
+      "error": "HTTP 404 for https://ubghyper.github.io/GameList.github.io/ruffle/movie.swf",
+      "status": 404
+    },
+    {
+      "url": "https://ubghyper.github.io/GameList.github.io/ruffle/saves.zip",
+      "error": "HTTP 404 for https://ubghyper.github.io/GameList.github.io/ruffle/saves.zip",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/is2/index.html",
+      "error": "capture: fetch failed",
+      "status": 0
+    }
+  ],
+  "mirroredAt": "2026-11-17T10:50:36.431Z"
+}

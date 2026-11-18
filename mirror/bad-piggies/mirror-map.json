@@ -1,0 +1,19 @@
+{
+  "/gamefile/piggies.html": "/piggies.html",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/Bad%20Piggies.data.unityweb": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/Bad Piggies.data.unityweb",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/Bad%20Piggies.json": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/Bad Piggies.json",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/Bad%20Piggies.wasm.code.unityweb": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/Bad Piggies.wasm.code.unityweb",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/Bad%20Piggies.wasm.framework.unityweb": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/Bad Piggies.wasm.framework.unityweb",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/UnityLoader.js": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/UnityLoader.js",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/StreamingAssets/AssetBundles/Audio_Collection.unity3d": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/StreamingAssets/AssetBundles/Audio_Collection.unity3d",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/StreamingAssets/AssetBundles/Music_Collection.unity3d": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/StreamingAssets/AssetBundles/Music_Collection.unity3d",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/UnityProgress.js": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/UnityProgress.js",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/favicon.ico": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/favicon.ico",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/fullscreen.png": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/fullscreen.png",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressEmpty.Dark.png": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressEmpty.Dark.png",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressFull.Dark.png": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressFull.Dark.png",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressLogo.Dark.png": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressLogo.Dark.png",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/style.css": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/style.css",
+  "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/webgl-logo.png": "/__external__/cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/webgl-logo.png",
+  "https://truffled.lol/gamefile/piggies.html": "/piggies.html"
+}

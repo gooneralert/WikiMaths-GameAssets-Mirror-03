@@ -1,0 +1,676 @@
+[
+  {
+    "slug": "pokemon-stadium",
+    "title": "Pokemon Stadium",
+    "type": "HTML",
+    "entry": "/pokestad.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 39965702,
+    "thumbnail": "/thumbs/truffled/pokemon-stadium.webp"
+  },
+  {
+    "slug": "mario-party-2",
+    "title": "Mario Party 2",
+    "type": "HTML",
+    "entry": "/marioparty2.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 39965715,
+    "thumbnail": "/thumbs/truffled/mario-party-2.webp"
+  },
+  {
+    "slug": "mario-party-3",
+    "title": "Mario Party 3",
+    "type": "HTML",
+    "entry": "/marioparty3.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 39965715,
+    "thumbnail": "/thumbs/truffled/mario-party-3.webp"
+  },
+  {
+    "slug": "mario-party-1",
+    "title": "Mario Party 1",
+    "type": "HTML",
+    "entry": "/marioparty.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 39965985,
+    "thumbnail": "/thumbs/truffled/mario-party-1.webp"
+  },
+  {
+    "slug": "into-space-3",
+    "title": "Into Space 3",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 39974932,
+    "thumbnail": "/thumbs/truffled/into-space-3.webp"
+  },
+  {
+    "slug": "into-space-2",
+    "title": "Into Space 2",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 40153561,
+    "thumbnail": "/thumbs/truffled/into-space-2.webp"
+  },
+  {
+    "slug": "celeste-3d",
+    "title": "Celeste 3D",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 40884517,
+    "thumbnail": ""
+  },
+  {
+    "slug": "potion-craft-alchemy-simulator",
+    "title": "Potion Craft Alchemy Simulator",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 41711570,
+    "thumbnail": ""
+  },
+  {
+    "slug": "repo",
+    "title": "REPO",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 42529146,
+    "thumbnail": ""
+  },
+  {
+    "slug": "binding-of-isaac-wrath-of-the-lamb",
+    "title": "Binding of Isaac: Wrath of the Lamb",
+    "type": "Flash",
+    "entry": "/index.html",
+    "developer": "Edmund McMillen",
+    "description": "The Binding of Isaac: Wrath of the Lamb is the expansion to The Binding of Isaac, a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaacâs form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.",
+    "tags": [
+      "2D",
+      "Action",
+      "Dark",
+      "Indie",
+      "Roguelike",
+      "Singleplayer"
+    ],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 43171879,
+    "thumbnail": "/thumbs/obsidian/binding-of-isaac-wrath-of-the-lamb.webp"
+  },
+  {
+    "slug": "slender-the-8-pages",
+    "title": "Slender: The 8 Pages",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 43199190,
+    "thumbnail": ""
+  },
+  {
+    "slug": "ragdoll-hit",
+    "title": "Ragdoll Hit",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 43557668,
+    "thumbnail": "/thumbs/truffled/ragdoll-hit.webp"
+  },
+  {
+    "slug": "paper-mario",
+    "title": "Paper Mario",
+    "type": "HTML",
+    "entry": "/papermario.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 44681910,
+    "thumbnail": "/thumbs/truffled/paper-mario.webp"
+  },
+  {
+    "slug": "tomodachi-collection",
+    "title": "Tomodachi Collection",
+    "type": "HTML",
+    "entry": "/tomo.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 45375579,
+    "thumbnail": "/thumbs/truffled/tomodachi-collection.webp"
+  },
+  {
+    "slug": "super-hot",
+    "title": "Super Hot",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 45476059,
+    "thumbnail": "/thumbs/truffled/super-hot.webp"
+  },
+  {
+    "slug": "superhot",
+    "title": "SUPERHOT",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 45540519,
+    "thumbnail": "/thumbs/obsidian/superhot.webp"
+  },
+  {
+    "slug": "dont-bite-me-bro",
+    "title": "Dont Bite Me Bro!",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 45745430,
+    "thumbnail": ""
+  },
+  {
+    "slug": "bad-piggies",
+    "title": "Bad Piggies",
+    "type": "HTML",
+    "entry": "/piggies.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 46598367,
+    "thumbnail": "/thumbs/truffled/bad-piggies.webp"
+  },
+  {
+    "slug": "madness-combat-fps-fueled-by-hot-dogs",
+    "title": "Madness Combat FPS Fueled by Hot Dogs",
+    "type": "HTML",
+    "entry": "/madnesscfpsfbhd.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 47491552,
+    "thumbnail": "/thumbs/truffled/madness-combat-fps-fueled-by-hot-dogs.webp"
+  },
+  {
+    "slug": "do-not-take-this-cat-home",
+    "title": "Do Not Take This Cat Home",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 47877934,
+    "thumbnail": ""
+  },
+  {
+    "slug": "karlson",
+    "title": "Karlson",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "Dani",
+    "description": "What do you get if you combine an FPS, Parkour, Slowmo & ... Milk? KARLSON. The milk-infused man will stop at nothing to locate and drink his favorite beverage. KARLSON brings unique and skill based movement to the table, highly inspired by classic FPS titles, set in a mysterious, futuristic setting. Fight your way out of the facility, and discover the truth behind your past. And the milk.",
+    "tags": [
+      "2D Platformer",
+      "Action",
+      "Physics",
+      "Difficult",
+      "Indie"
+    ],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 48266789,
+    "thumbnail": "/thumbs/obsidian/karlson.webp"
+  },
+  {
+    "slug": "re-run",
+    "title": "RE:RUN",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 49791557,
+    "thumbnail": ""
+  },
+  {
+    "slug": "10-minutes-till-dawn",
+    "title": "10 Minutes Till Dawn",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "flanne",
+    "description": "Shoot down an ever growing horde of Lovecraftian monsters. Choose from a variety of upgrades to create unique and game-breaking builds. Unlock a diverse cast of characters and weapons with unique powers.",
+    "tags": [
+      "Roguelike",
+      "Roguelite",
+      "Survival",
+      "Indie",
+      "Dark",
+      "Singleplayer"
+    ],
+    "controls": [
+      {
+        "action": "Move Up",
+        "keys": [
+          {
+            "key": "KeyW",
+            "keyCode": 87
+          }
+        ]
+      },
+      {
+        "action": "Move Down",
+        "keys": [
+          {
+            "key": "KeyS",
+            "keyCode": 83
+          }
+        ]
+      },
+      {
+        "action": "Move Left",
+        "keys": [
+          {
+            "key": "KeyA",
+            "keyCode": 65
+          }
+        ]
+      },
+      {
+        "action": "Move Right",
+        "keys": [
+          {
+            "key": "KeyD",
+            "keyCode": 68
+          }
+        ]
+      },
+      {
+        "action": "Active Ability / Special",
+        "keys": [
+          {
+            "key": "Space",
+            "keyCode": 32
+          }
+        ]
+      },
+      {
+        "action": "Reload / Interact",
+        "keys": [
+          {
+            "key": "KeyR",
+            "keyCode": 82
+          }
+        ]
+      },
+      {
+        "action": "Pause",
+        "keys": [
+          {
+            "key": "Escape",
+            "keyCode": 27
+          }
+        ]
+      }
+    ],
+    "gamepadControls": [
+      {
+        "action": "Move Up",
+        "axes": [
+          {
+            "index": 1,
+            "direction": -1
+          }
+        ]
+      },
+      {
+        "action": "Move Down",
+        "axes": [
+          {
+            "index": 1,
+            "direction": 1
+          }
+        ]
+      },
+      {
+        "action": "Move Left",
+        "axes": [
+          {
+            "index": 0,
+            "direction": -1
+          }
+        ]
+      },
+      {
+        "action": "Move Right",
+        "axes": [
+          {
+            "index": 0,
+            "direction": 1
+          }
+        ]
+      },
+      {
+        "action": "Active Ability / Special",
+        "buttons": [
+          0
+        ]
+      },
+      {
+        "action": "Reload / Interact",
+        "buttons": [
+          2
+        ]
+      },
+      {
+        "action": "Pause",
+        "buttons": [
+          9
+        ]
+      }
+    ],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 50495900,
+    "thumbnail": "/thumbs/obsidian/10-minutes-till-dawn.webp"
+  },
+  {
+    "slug": "klifur",
+    "title": "Klifur",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 50885075,
+    "thumbnail": "/thumbs/truffled/klifur.webp"
+  },
+  {
+    "slug": "pokemon-stadium-2",
+    "title": "Pokemon Stadium 2",
+    "type": "HTML",
+    "entry": "/pokestad2.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 50980573,
+    "thumbnail": "/thumbs/truffled/pokemon-stadium-2.webp"
+  },
+  {
+    "slug": "plants-vs-zombies-goty-edition",
+    "title": "Plants vs. Zombies GOTY Edition",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": " PopCap Games, Inc.",
+    "description": "Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and cherry bombs, you'll need to think fast and plant faster to stop dozens of types of zombies dead in their tracks.",
+    "tags": [
+      "2D",
+      "Casual",
+      "Comedy",
+      "Singleplayer",
+      "Strategy",
+      "Tower Defense"
+    ],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 51416527,
+    "thumbnail": "/thumbs/obsidian/plants-vs-zombies-goty-edition.webp"
+  },
+  {
+    "slug": "pixel-gun-3d",
+    "title": "Pixel Gun 3D",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 39269300,
+    "thumbnail": "/thumbs/truffled/pixel-gun-3d.webp"
+  },
+  {
+    "slug": "to-the-core",
+    "title": "To The Core",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 53270517,
+    "thumbnail": ""
+  },
+  {
+    "slug": "sonic-world-next",
+    "title": "Sonic World Next",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 53694093,
+    "thumbnail": "/thumbs/truffled/sonic-world-next.webp"
+  },
+  {
+    "slug": "quake",
+    "title": "Quake",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 54048091,
+    "thumbnail": "/thumbs/truffled/quake.webp"
+  },
+  {
+    "slug": "subway-surfers",
+    "title": "Subway Surfers",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 55861962,
+    "thumbnail": "/thumbs/truffled/subway-surfers.webp"
+  },
+  {
+    "slug": "the-legend-of-zelda-twilight-princess",
+    "title": "The Legend of Zelda: Twilight Princess",
+    "type": "HTML",
+    "entry": "/index.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 56030552,
+    "thumbnail": "/thumbs/truffled/the-legend-of-zelda-twilight-princess.webp"
+  },
+  {
+    "slug": "the-binding-of-isaac-wrath-of-the-lamb-eternal",
+    "title": "The Binding Of Isaac Wrath Of The Lamb: Eternal",
+    "type": "HTML",
+    "entry": "/boilambeternal.html",
+    "developer": "",
+    "description": "",
+    "tags": [],
+    "controls": [],
+    "gamepadControls": [],
+    "controllerSupport": false,
+    "onlineOnly": false,
+    "status": "done",
+    "sizeBytes": 56947529,
+    "thumbnail": "/thumbs/truffled/the-binding-of-isaac-wrath-of-the-lamb-eternal.webp"
+  }
+]

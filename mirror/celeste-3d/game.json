@@ -1,0 +1,52 @@
+{
+  "slug": "celeste-3d",
+  "title": "Celeste 3D",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/celeste3d/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/celeste3d/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/celeste3d.webp",
+  "baseUrl": "https://truffled.lol/games/celeste3d/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/celeste3d/index.html",
+  "status": "done",
+  "sizeBytes": 40884517,
+  "assetCount": 12,
+  "known404": [
+    "https://truffled.lol/games/celeste3d/Build/build.temp.asm.js"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/celeste3d/Build/build.temp.asm.js",
+      "error": "HTTP 404 for https://truffled.lol/games/celeste3d/Build/build.temp.asm.js",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-10-30T12:53:58.498Z",
+  "verifiedAt": "2026-11-16T14:14:32.564Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Unity WebGL Player | Celeste",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1264,
+      "height": 625
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 0.797,
+    "rendered": true
+  }
+}

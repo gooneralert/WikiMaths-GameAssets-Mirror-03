@@ -1,0 +1,48 @@
+{
+  "slug": "binding-of-isaac-wrath-of-the-lamb",
+  "title": "Binding of Isaac: Wrath of the Lamb",
+  "type": "Flash",
+  "developer": "Edmund McMillen",
+  "description": "The Binding of Isaac: Wrath of the Lamb is the expansion to The Binding of Isaac, a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaacâs form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.",
+  "tags": [
+    "2D",
+    "Action",
+    "Dark",
+    "Indie",
+    "Roguelike",
+    "Singleplayer"
+  ],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "1763b860-a03c-43a5-960d-ee2377920995",
+  "sourceVersion": "1.666",
+  "sourceUrl": "https://playobsidian.com/cdn/assets/flash/1763b860-a03c-43a5-960d-ee2377920995/1.666/1763b860-a03c-43a5-960d-ee2377920995.swf",
+  "entry": "/index.html",
+  "entryUrl": "/index.html",
+  "status": "done",
+  "sizeBytes": 43171879,
+  "files": [
+    "game.swf",
+    "index.html"
+  ],
+  "notes": "Runs in the shared local Ruffle runtime.",
+  "mirroredAt": "2026-10-26T11:55:30.119Z",
+  "verifiedAt": "2026-11-16T13:44:55.468Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Binding of Isaac: Wrath of the Lamb",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": null,
+    "nonBlack": null,
+    "screenshotNonBlack": 0.951,
+    "rendered": true
+  },
+  "assetCount": 0
+}

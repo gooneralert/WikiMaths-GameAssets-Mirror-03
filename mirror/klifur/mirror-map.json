@@ -1,0 +1,14 @@
+{
+  "/favicon.ico": "/__site__/favicon.ico",
+  "/games/kilfur/Build/Web.data.gz": "/Build/Web.data.gz",
+  "/games/kilfur/Build/Web.framework.js.gz": "/Build/Web.framework.js.gz",
+  "/games/kilfur/Build/Web.loader.js": "/Build/Web.loader.js",
+  "/games/kilfur/Build/Web.wasm.gz": "/Build/Web.wasm.gz",
+  "/games/kilfur/index.html": "/index.html",
+  "https://truffled.lol/favicon.ico": "/__site__/favicon.ico",
+  "https://truffled.lol/games/kilfur/Build/Web.data.gz": "/Build/Web.data.gz",
+  "https://truffled.lol/games/kilfur/Build/Web.framework.js.gz": "/Build/Web.framework.js.gz",
+  "https://truffled.lol/games/kilfur/Build/Web.loader.js": "/Build/Web.loader.js",
+  "https://truffled.lol/games/kilfur/Build/Web.wasm.gz": "/Build/Web.wasm.gz",
+  "https://truffled.lol/games/kilfur/index.html": "/index.html"
+}

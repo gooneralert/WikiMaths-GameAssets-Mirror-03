@@ -1,0 +1,84 @@
+{
+  "slug": "do-not-take-this-cat-home",
+  "title": "Do Not Take This Cat Home",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/donottakethiscathome/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/donottakethiscathome/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/dont.webp",
+  "baseUrl": "https://truffled.lol/games/donottakethiscathome/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/donottakethiscathome/index.html",
+  "status": "done",
+  "sizeBytes": 47877934,
+  "assetCount": 22,
+  "known404": [
+    "https://cdn.jsdelivr.net/lib/python3.11/lib-dynload/empty.txt"
+  ],
+  "failed": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/web-presplash.jpg",
+      "error": "HTTP 403 for https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/web-presplash.jpg",
+      "status": 403
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/game.zip",
+      "error": "HTTP 400 for https://cdn.jsdelivr.net/game.zip",
+      "status": 400
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/savegames.zip",
+      "error": "HTTP 403 for https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/savegames.zip",
+      "status": 403
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/lib/python3.11/lib-dynload/empty.txt",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/lib/python3.11/lib-dynload/empty.txt",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/datafile_renpy.data",
+      "error": "HTTP 403 for https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/datafile_renpy.data",
+      "status": 403
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/.ogg",
+      "error": "HTTP 403 for https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/.ogg",
+      "status": 403
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/.wav",
+      "error": "HTTP 403 for https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/.wav",
+      "status": 403
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/.mp3",
+      "error": "HTTP 403 for https://cdn.jsdelivr.net/gh/genizy/web-port@main/donottakethiscathome/.mp3",
+      "status": 403
+    }
+  ],
+  "mirroredAt": "2026-11-17T08:23:07.646Z",
+  "verifiedAt": "2026-11-18T06:46:18.150Z",
+  "verification": {
+    "external": 10,
+    "blocking": 0,
+    "ignoredExternal": 10,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Do NOT Take This Cat Home",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": null,
+    "nonBlack": null,
+    "screenshotNonBlack": 1,
+    "rendered": true
+  }
+}

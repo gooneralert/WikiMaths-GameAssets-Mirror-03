@@ -1,0 +1,141 @@
+{
+  "slug": "pixel-gun-3d",
+  "title": "Pixel Gun 3D",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/pixl/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/pixl/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/pixelgun.webp",
+  "baseUrl": "https://truffled.lol/games/pixl/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/pixl/index.html",
+  "status": "done",
+  "sizeBytes": 39269300,
+  "assetCount": 34,
+  "known404": [
+    "https://truffled.lol/games/pixl/Build/zlib/messages.js",
+    "https://truffled.lol/games/pixl/Build/utils/strings.js",
+    "https://truffled.lol/games/pixl/Build/zlib/inflate.js",
+    "https://truffled.lol/games/pixl/Build/zlib/constants.js",
+    "https://truffled.lol/games/pixl/Build/zlib/inftrees.js",
+    "https://truffled.lol/games/pixl/Build/zlib/zstream.js",
+    "https://truffled.lol/games/pixl/Build/dec/dictionary.bin.js",
+    "https://truffled.lol/games/pixl/Build/dec/dictionary.js",
+    "https://truffled.lol/games/pixl/Build/dec/dictionary-browser.js",
+    "https://truffled.lol/games/pixl/Build/dec/decode.js",
+    "https://truffled.lol/games/pixl/Build/dictionary.bin.js",
+    "https://truffled.lol/games/pixl/Build/dec/huffman.js",
+    "https://truffled.lol/games/pixl/Build/dec/streams.js",
+    "https://truffled.lol/games/pixl/Build/dec/prefix.js",
+    "https://truffled.lol/games/pixl/Build/dec/transform.js"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/pixl/Build/zlib/messages.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/zlib/messages.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/utils/strings.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/utils/strings.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/zlib/inflate.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/zlib/inflate.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/zlib/constants.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/zlib/constants.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/zlib/inftrees.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/zlib/inftrees.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/zlib/zstream.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/zlib/zstream.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dec/dictionary.bin.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dec/dictionary.bin.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dec/dictionary.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dec/dictionary.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dec/dictionary-browser.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dec/dictionary-browser.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dec/decode.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dec/decode.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dictionary.bin.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dictionary.bin.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dec/huffman.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dec/huffman.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dec/streams.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dec/streams.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dec/prefix.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dec/prefix.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pixl/Build/dec/transform.js",
+      "error": "HTTP 404 for https://truffled.lol/games/pixl/Build/dec/transform.js",
+      "status": 404
+    },
+    {
+      "url": "(crawl)",
+      "error": "crawl stalled; abandoned hung downloads",
+      "status": 0
+    }
+  ],
+  "mirroredAt": "2026-11-17T17:41:57.752Z",
+  "verifiedAt": "2026-11-18T07:02:40.782Z",
+  "verification": {
+    "external": 2,
+    "blocking": 0,
+    "ignoredExternal": 2,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 1,
+    "title": "Unity WebGL Player | Pixl Gun 3D",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1280,
+      "height": 713
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 0.9374,
+    "rendered": true
+  }
+}

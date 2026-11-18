@@ -1,0 +1,52 @@
+{
+  "slug": "klifur",
+  "title": "Klifur",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/kilfur/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/kilfur/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/kil.webp",
+  "baseUrl": "https://truffled.lol/games/kilfur/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/kilfur/index.html",
+  "status": "done",
+  "sizeBytes": 50885075,
+  "assetCount": 12,
+  "known404": [
+    "https://truffled.lol/games/kilfur/Build/build.wasm"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/kilfur/Build/build.wasm",
+      "error": "HTTP 404 for https://truffled.lol/games/kilfur/Build/build.wasm",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-17T12:15:42.779Z",
+  "verifiedAt": "2026-11-17T12:15:53.478Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Klifur",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1112,
+      "height": 625
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 1,
+    "rendered": true
+  }
+}

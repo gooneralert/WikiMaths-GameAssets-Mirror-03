@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<script src="/__offline__/bootstrap.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | Karlson</title>
+  <script src="Build/UnityLoader.js"></script>
+  		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				border: 0;
+				overflow: hidden;
+			}
+
+			body {
+				background: #000;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+			}
+
+			#unityContainer {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+<script>
+     			function resizeUnityContainer() {
+				var container = document.getElementById("unityContainer");
+				container.style.width = window.innerWidth + "px";
+				container.style.height = window.innerHeight + "px";
+			}
+
+async function startUnity() {
+  const wasmurl = "tyj.wasm.code";
+  window.wasmBinaryFilee = "Build/" + wasmurl;
+  // Unity JSON config
+  const json = {
+    companyName: "Dani",
+    productName: "Karlson",
+    productVersion: "0.1",
+    dataUrl: "tyj.data.unityweb",
+    wasmCodeUrl: wasmurl,
+    wasmFrameworkUrl: "tyj.wasm.framework.js",
+    graphicsAPI: ["WebGL 2.0"],
+    webglContextAttributes: { preserveDrawingBuffer: false },
+    splashScreenStyle: "Dark",
+    backgroundColor: "#231F20",
+    developmentBuild: false,
+    multithreading: false,
+    unityVersion: "2019.2.6f1"
+  };
+
+  let blob = new Blob([JSON.stringify(json)], { type: "application/json" });
+  blobUrl = URL.createObjectURL(blob);
+
+  window.addEventListener("resize", resizeUnityContainer);
+  UnityLoader.instantiate("unityContainer", json, {
+    url: blobUrl,
+    Module: {
+      onRuntimeInitialized: function () {
+        resizeUnityContainer();
+        document.querySelector("#loading-text").remove();
+      }
+    }
+  });
+}
+
+window.addEventListener("load", startUnity);
+  </script>
+</head>
+<body>
+  <div
+    id="loading-text"
+    style="
+      color: white;
+      font-size: 48px;
+      font-family: cursive;
+      text-align: center;
+      margin-top: 20px;
+    "
+  >
+    LOADING...
+  </div>
+  <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
+</body>
+</html>

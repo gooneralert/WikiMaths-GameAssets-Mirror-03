@@ -1,0 +1,160 @@
+{
+  "slug": "bad-piggies",
+  "title": "Bad Piggies",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/gamefile/piggies.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/gamefile/piggies.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/badp.webp",
+  "baseUrl": "https://truffled.lol/gamefile/",
+  "entry": "/piggies.html",
+  "entryUrl": "https://truffled.lol/gamefile/piggies.html",
+  "status": "done",
+  "sizeBytes": 46598367,
+  "assetCount": 17,
+  "known404": [
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/messages.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/utils/strings.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/zstream.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/constants.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary.bin.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/inftrees.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/decode.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/inflate.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/inflate.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dictionary.bin.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary-browser.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/huffman.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/transform.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/streams.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/prefix.js",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressLogo.Light.png",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressFull.Light.png",
+    "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressEmpty.Light.png"
+  ],
+  "failed": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/messages.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/messages.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/utils/strings.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/utils/strings.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/zstream.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/zstream.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/constants.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/constants.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary.bin.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary.bin.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/inftrees.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/inftrees.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/decode.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/decode.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/inflate.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/zlib/inflate.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/inflate.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/inflate.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dictionary.bin.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dictionary.bin.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary-browser.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/dictionary-browser.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/huffman.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/huffman.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/transform.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/transform.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/streams.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/streams.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/prefix.js",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/Build/dec/prefix.js",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressLogo.Light.png",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressLogo.Light.png",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressFull.Light.png",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressFull.Light.png",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressEmpty.Light.png",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/67-Factory/web-ports@main/badpiggies/TemplateData/progressEmpty.Light.png",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-17T07:19:41.220Z",
+  "verifiedAt": "2026-11-18T06:38:38.852Z",
+  "verification": {
+    "external": 2,
+    "blocking": 0,
+    "ignoredExternal": 2,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Unity WebGL Player | Bad Piggies",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1280,
+      "height": 713
+    },
+    "nonBlack": 4096,
+    "screenshotNonBlack": null,
+    "rendered": true
+  }
+}
