@@ -1,0 +1,270 @@
+{
+  "slug": "ragdoll-hit",
+  "title": "Ragdoll Hit",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/ragdoll/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/ragdoll/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/hit.webp",
+  "baseUrl": "https://truffled.lol/games/ragdoll/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/ragdoll/index.html",
+  "status": "done",
+  "sizeBytes": 43557668,
+  "assetCount": 51,
+  "known404": [
+    "https://truffled.lol/games/ragdoll/d9d605cb1c18b4ed9fb179406f02ceab.loader.js",
+    "https://imasdk.googleapis.com/js/sdkloader/Iterator.prototype.map",
+    "https://imasdk.googleapis.com/js/sdkloader/outstream.min.js",
+    "https://imasdk.googleapis.com/js/sdkloader/.js",
+    "https://imasdk.googleapis.com/js/sdkloader/custom.elements.min.js",
+    "https://imasdk.googleapis.com/js/sdkloader/outstream.min.css",
+    "https://truffled.lol/games/ragdoll/Build/dec/decode.js",
+    "https://truffled.lol/games/ragdoll/Build/dec/dictionary.js",
+    "https://5lgx5w5cgs9pyyu8u.ay.delivery/ivt-p.min.js",
+    "https://truffled.lol/games/ragdoll/Build/dec/dictionary.bin.js",
+    "https://5lgx5w5cgs9pyyu8u.ay.delivery/ivt.min.js",
+    "https://truffled.lol/games/ragdoll/Build/dec/prefix.js",
+    "https://truffled.lol/games/ragdoll/Build/dec/streams.js",
+    "https://truffled.lol/games/ragdoll/Build/dec/transform.js"
+  ],
+  "failed": [
+    {
+      "url": "https://game-cdn.poki.com/unity/dist/unity.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/unity/dist/unity.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/unity-2020/dist/unity-2020.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/unity-2020/dist/unity-2020.js",
+      "status": 403
+    },
+    {
+      "url": "https://truffled.lol/games/ragdoll/d9d605cb1c18b4ed9fb179406f02ceab.loader.js",
+      "error": "HTTP 404 for https://truffled.lol/games/ragdoll/d9d605cb1c18b4ed9fb179406f02ceab.loader.js",
+      "status": 404
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/utils/strings.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/utils/strings.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/zlib/inflate.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/zlib/inflate.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/inflate.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/inflate.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/zlib/constants.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/zlib/constants.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/zlib/messages.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/zlib/messages.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/zlib/inftrees.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/zlib/inftrees.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/zlib/zstream.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/zlib/zstream.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dec/decode.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dec/decode.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dec/dictionary.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dec/dictionary.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dec/dictionary.bin.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dec/dictionary.bin.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dec/dictionary-browser.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dec/dictionary-browser.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dictionary.bin.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dictionary.bin.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dec/huffman.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dec/huffman.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dec/prefix.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dec/prefix.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dec/streams.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dec/streams.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/dec/transform.js",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/dec/transform.js",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/loaders/v2/unity/static/.unityweb",
+      "error": "HTTP 403 for https://game-cdn.poki.com/loaders/v2/unity/static/.unityweb",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/scripts/acd6ef9dc0f687ad5c041c25fd74e7deff5aa0ae/com.br",
+      "error": "HTTP 403 for https://game-cdn.poki.com/scripts/acd6ef9dc0f687ad5c041c25fd74e7deff5aa0ae/com.br",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/scripts/acd6ef9dc0f687ad5c041c25fd74e7deff5aa0ae/poki.com.br",
+      "error": "HTTP 403 for https://game-cdn.poki.com/scripts/acd6ef9dc0f687ad5c041c25fd74e7deff5aa0ae/poki.com.br",
+      "status": 403
+    },
+    {
+      "url": "https://a.poki-cdn.com/prebid/events.js",
+      "error": "HTTP 403 for https://a.poki-cdn.com/prebid/events.js",
+      "status": 403
+    },
+    {
+      "url": "https://a.poki-cdn.com/prebid/ext.data",
+      "error": "HTTP 403 for https://a.poki-cdn.com/prebid/ext.data",
+      "status": 403
+    },
+    {
+      "url": "https://a.poki-cdn.com/prebid/prebid.js",
+      "error": "HTTP 403 for https://a.poki-cdn.com/prebid/prebid.js",
+      "status": 403
+    },
+    {
+      "url": "https://a.poki-cdn.com/prebid/user.data",
+      "error": "HTTP 403 for https://a.poki-cdn.com/prebid/user.data",
+      "status": 403
+    },
+    {
+      "url": "https://a.poki-cdn.com/prebid/.js",
+      "error": "HTTP 403 for https://a.poki-cdn.com/prebid/.js",
+      "status": 403
+    },
+    {
+      "url": "https://a.poki-cdn.com/prebid/ortb2.user.data",
+      "error": "HTTP 403 for https://a.poki-cdn.com/prebid/ortb2.user.data",
+      "status": 403
+    },
+    {
+      "url": "https://a.poki-cdn.com/prebid/.rubiconproject.com/a/api/fastlane.json",
+      "error": "HTTP 403 for https://a.poki-cdn.com/prebid/.rubiconproject.com/a/api/fastlane.json",
+      "status": 403
+    },
+    {
+      "url": "https://imasdk.googleapis.com/js/sdkloader/Iterator.prototype.map",
+      "error": "HTTP 404 for https://imasdk.googleapis.com/js/sdkloader/Iterator.prototype.map",
+      "status": 404
+    },
+    {
+      "url": "https://imasdk.googleapis.com/js/sdkloader/outstream.min.js",
+      "error": "HTTP 404 for https://imasdk.googleapis.com/js/sdkloader/outstream.min.js",
+      "status": 404
+    },
+    {
+      "url": "https://imasdk.googleapis.com/js/sdkloader/.js",
+      "error": "HTTP 404 for https://imasdk.googleapis.com/js/sdkloader/.js",
+      "status": 404
+    },
+    {
+      "url": "https://imasdk.googleapis.com/js/sdkloader/custom.elements.min.js",
+      "error": "HTTP 404 for https://imasdk.googleapis.com/js/sdkloader/custom.elements.min.js",
+      "status": 404
+    },
+    {
+      "url": "https://imasdk.googleapis.com/js/sdkloader/outstream.min.css",
+      "error": "HTTP 404 for https://imasdk.googleapis.com/js/sdkloader/outstream.min.css",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/ragdoll/Build/dec/decode.js",
+      "error": "HTTP 404 for https://truffled.lol/games/ragdoll/Build/dec/decode.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/ragdoll/Build/dec/dictionary.js",
+      "error": "HTTP 404 for https://truffled.lol/games/ragdoll/Build/dec/dictionary.js",
+      "status": 404
+    },
+    {
+      "url": "https://5lgx5w5cgs9pyyu8u.ay.delivery/ivt-p.min.js",
+      "error": "HTTP 404 for https://5lgx5w5cgs9pyyu8u.ay.delivery/ivt-p.min.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/ragdoll/Build/dec/dictionary.bin.js",
+      "error": "HTTP 404 for https://truffled.lol/games/ragdoll/Build/dec/dictionary.bin.js",
+      "status": 404
+    },
+    {
+      "url": "https://5lgx5w5cgs9pyyu8u.ay.delivery/ivt.min.js",
+      "error": "HTTP 404 for https://5lgx5w5cgs9pyyu8u.ay.delivery/ivt.min.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/ragdoll/Build/dec/prefix.js",
+      "error": "HTTP 404 for https://truffled.lol/games/ragdoll/Build/dec/prefix.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/ragdoll/Build/dec/streams.js",
+      "error": "HTTP 404 for https://truffled.lol/games/ragdoll/Build/dec/streams.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/ragdoll/Build/dec/transform.js",
+      "error": "HTTP 404 for https://truffled.lol/games/ragdoll/Build/dec/transform.js",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-17T19:13:10.306Z",
+  "verifiedAt": "2026-11-17T19:13:20.024Z",
+  "verification": {
+    "external": 2,
+    "blocking": 0,
+    "ignoredExternal": 2,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 2,
+    "title": "Ragdoll Hit - Poki",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1264,
+      "height": 625
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 1,
+    "rendered": true
+  }
+}

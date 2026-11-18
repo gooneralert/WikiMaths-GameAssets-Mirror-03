@@ -1,0 +1,55 @@
+{
+  "slug": "the-binding-of-isaac-wrath-of-the-lamb-eternal",
+  "title": "The Binding Of Isaac Wrath Of The Lamb: Eternal",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/gamefile/boilambeternal.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/gamefile/boilambeternal.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/boilambeternal.webp",
+  "baseUrl": "https://truffled.lol/gamefile/",
+  "entry": "/boilambeternal.html",
+  "entryUrl": "https://truffled.lol/gamefile/boilambeternal.html",
+  "status": "done",
+  "sizeBytes": 56947529,
+  "assetCount": 11,
+  "known404": [
+    "https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/.wasm",
+    "https://cdn.jsdelivr.net/gh/bubbls/ugss@main/boilambeternal/tboiwotl-v1.666.swf"
+  ],
+  "failed": [
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/.wasm",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/.wasm",
+      "status": 404
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/bubbls/ugss@main/boilambeternal/tboiwotl-v1.666.swf",
+      "error": "HTTP 404 for https://cdn.jsdelivr.net/gh/bubbls/ugss@main/boilambeternal/tboiwotl-v1.666.swf",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-18T00:35:03.649Z",
+  "verifiedAt": "2026-11-18T00:35:13.885Z",
+  "verification": {
+    "external": 1,
+    "blocking": 0,
+    "ignoredExternal": 1,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "really cool flash game",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": null,
+    "nonBlack": null,
+    "screenshotNonBlack": 0.6509,
+    "rendered": true
+  }
+}

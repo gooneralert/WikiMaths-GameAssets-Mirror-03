@@ -1,0 +1,277 @@
+{
+  "slug": "subway-surfers",
+  "title": "Subway Surfers",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/subway-surfers/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/subway-surfers/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/sub.webp",
+  "baseUrl": "https://truffled.lol/games/subway-surfers/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/subway-surfers/index.html",
+  "status": "done",
+  "sizeBytes": 55861962,
+  "assetCount": 64,
+  "known404": [
+    "https://truffled.lol/games/subway-surfers/unity-2020.js",
+    "https://truffled.lol/games/subway-surfers/unity-beta.js",
+    "https://truffled.lol/unity-beta/dist/unity-beta.js",
+    "https://truffled.lol/unity/dist/unity.js",
+    "https://truffled.lol/games/subway-surfers/UnityLoader.2019.1.js",
+    "https://truffled.lol/unity-2020/dist/unity-2020.js",
+    "https://truffled.lol/games/subway-surfers/UnityLoader.js",
+    "https://truffled.lol/games/subway-surfers/fonts/torus-bold-webfont.woff2",
+    "https://truffled.lol/games/subway-surfers/inflate.js",
+    "https://truffled.lol/games/subway-surfers/utils/common.js",
+    "https://truffled.lol/games/subway-surfers/utils/strings.js",
+    "https://truffled.lol/games/subway-surfers/zlib/inflate.js",
+    "https://truffled.lol/games/subway-surfers/zlib/constants.js",
+    "https://truffled.lol/games/subway-surfers/zlib/messages.js",
+    "https://truffled.lol/games/subway-surfers/zlib/zstream.js",
+    "https://truffled.lol/games/subway-surfers/zlib/adler32.js",
+    "https://truffled.lol/games/subway-surfers/zlib/gzheader.js",
+    "https://truffled.lol/games/subway-surfers/zlib/crc32.js",
+    "https://truffled.lol/games/subway-surfers/zlib/inffast.js",
+    "https://truffled.lol/games/subway-surfers/decompress.js",
+    "https://truffled.lol/games/subway-surfers/zlib/inftrees.js",
+    "https://truffled.lol/games/subway-surfers/dec/bit_reader.js",
+    "https://truffled.lol/games/subway-surfers/dec/context.js",
+    "https://truffled.lol/games/subway-surfers/dec/decode.js",
+    "https://truffled.lol/games/subway-surfers/dec/dictionary.js",
+    "https://truffled.lol/games/subway-surfers/dictionary.bin.js",
+    "https://truffled.lol/games/subway-surfers/dec/dictionary-browser.js",
+    "https://truffled.lol/games/subway-surfers/dec/dictionary.bin.js",
+    "https://truffled.lol/games/subway-surfers/dec/huffman.js",
+    "https://truffled.lol/games/subway-surfers/dec/prefix.js",
+    "https://truffled.lol/games/subway-surfers/dec/streams.js",
+    "https://truffled.lol/games/subway-surfers/build.wasm",
+    "https://truffled.lol/games/subway-surfers/dec/transform.js",
+    "https://truffled.lol/games/subway-surfers/build.temp.asm.js",
+    "https://truffled.lol/games/subway-surfers/node_modules/base64-js/index.js",
+    "https://truffled.lol/games/subway-surfers/touchControllerConfig.json"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/subway-surfers/unity-2020.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/unity-2020.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/unity-beta.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/unity-beta.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/unity-beta/dist/unity-beta.js",
+      "error": "HTTP 404 for https://truffled.lol/unity-beta/dist/unity-beta.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/unity/dist/unity.js",
+      "error": "HTTP 404 for https://truffled.lol/unity/dist/unity.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/UnityLoader.2019.1.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/UnityLoader.2019.1.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/unity-2020/dist/unity-2020.js",
+      "error": "HTTP 404 for https://truffled.lol/unity-2020/dist/unity-2020.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/UnityLoader.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/UnityLoader.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/fonts/torus-bold-webfont.woff2",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/fonts/torus-bold-webfont.woff2",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/inflate.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/inflate.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/utils/common.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/utils/common.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/utils/strings.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/utils/strings.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/inflate.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/inflate.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/constants.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/constants.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/messages.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/messages.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/zstream.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/zstream.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/adler32.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/adler32.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/gzheader.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/gzheader.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/crc32.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/crc32.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/inffast.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/inffast.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/decompress.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/decompress.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/zlib/inftrees.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/zlib/inftrees.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/bit_reader.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/bit_reader.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/context.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/context.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/decode.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/decode.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/dictionary.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/dictionary.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dictionary.bin.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dictionary.bin.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/dictionary-browser.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/dictionary-browser.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/dictionary.bin.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/dictionary.bin.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/huffman.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/huffman.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/prefix.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/prefix.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/streams.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/streams.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/build.wasm",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/build.wasm",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/dec/transform.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/dec/transform.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/build.temp.asm.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/build.temp.asm.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/node_modules/base64-js/index.js",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/node_modules/base64-js/index.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/subway-surfers/touchControllerConfig.json",
+      "error": "HTTP 404 for https://truffled.lol/games/subway-surfers/touchControllerConfig.json",
+      "status": 404
+    },
+    {
+      "url": "https://game-cdn.poki.com/scripts/.png",
+      "error": "HTTP 403 for https://game-cdn.poki.com/scripts/.png",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/scripts/_down.png",
+      "error": "HTTP 403 for https://game-cdn.poki.com/scripts/_down.png",
+      "status": 403
+    },
+    {
+      "url": "https://game-cdn.poki.com/scripts/dpad.png",
+      "error": "HTTP 403 for https://game-cdn.poki.com/scripts/dpad.png",
+      "status": 403
+    }
+  ],
+  "mirroredAt": "2026-11-17T23:21:39.676Z",
+  "verifiedAt": "2026-11-17T23:22:46.442Z",
+  "verification": {
+    "external": 1,
+    "blocking": 0,
+    "ignoredExternal": 1,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 1,
+    "title": "Subway Surfers",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1111,
+      "height": 625
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 0.5286,
+    "rendered": true
+  }
+}

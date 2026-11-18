@@ -1,0 +1,74 @@
+{
+  "slug": "superhot",
+  "title": "SUPERHOT",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "source": "obsidian",
+  "sourceVersion": "1",
+  "sourceUrl": "https://playobsidian.com/cdn/assets/html/0abcc623-ec00-493a-9139-e23b85071e5a/1/index.html",
+  "sourceThumbnail": "",
+  "baseUrl": "https://playobsidian.com/cdn/assets/html/0abcc623-ec00-493a-9139-e23b85071e5a/1/",
+  "entry": "/index.html",
+  "entryUrl": "https://playobsidian.com/cdn/assets/html/0abcc623-ec00-493a-9139-e23b85071e5a/1/index.html",
+  "status": "done",
+  "sizeBytes": 45540519,
+  "assetCount": 14,
+  "known404": [
+    "https://playobsidian.com/cdn/assets/html/0abcc623-ec00-493a-9139-e23b85071e5a/1/datafile_webgl.data",
+    "https://playobsidian.com/methods_pointedto_by_uievents.xml",
+    "https://playobsidian.com/js/main.js",
+    "https://playobsidian.com/preserved_derived_types.xml"
+  ],
+  "failed": [
+    {
+      "url": "https://playobsidian.com/cdn/assets/html/0abcc623-ec00-493a-9139-e23b85071e5a/1/datafile_webgl.data",
+      "error": "HTTP 404 for https://playobsidian.com/cdn/assets/html/0abcc623-ec00-493a-9139-e23b85071e5a/1/datafile_webgl.data",
+      "status": 404
+    },
+    {
+      "url": "https://playobsidian.com/methods_pointedto_by_uievents.xml",
+      "error": "HTTP 404 for https://playobsidian.com/methods_pointedto_by_uievents.xml",
+      "status": 404
+    },
+    {
+      "url": "https://playobsidian.com/js/main.js",
+      "error": "HTTP 404 for https://playobsidian.com/js/main.js",
+      "status": 404
+    },
+    {
+      "url": "https://playobsidian.com/preserved_derived_types.xml",
+      "error": "HTTP 404 for https://playobsidian.com/preserved_derived_types.xml",
+      "status": 404
+    },
+    {
+      "url": "https://stats.unity3d.com/HWStats.cgi",
+      "error": "fetch failed",
+      "status": 0
+    }
+  ],
+  "mirroredAt": "2026-11-16T16:05:33.321Z",
+  "verifiedAt": "2026-11-16T16:06:55.839Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 1,
+    "title": "SUPERHOT",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1249,
+      "height": 625
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 1,
+    "rendered": true
+  }
+}

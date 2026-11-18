@@ -1,0 +1,22 @@
+{
+  "/404": "/Build/Build.data.unityweb",
+  "/css/404.css": "/__site__/css/404.css",
+  "/games/pcraft/Build/Build.data.unityweb": "/Build/Build.data.unityweb",
+  "/games/pcraft/Build/Build.data.unityweb.part000": "/Build/Build.data.unityweb.part000",
+  "/games/pcraft/Build/Build.data.unityweb.part001": "/Build/Build.data.unityweb.part001",
+  "/games/pcraft/Build/Build.framework.js.unityweb": "/Build/Build.framework.js.unityweb",
+  "/games/pcraft/Build/Build.loader.js": "/Build/Build.loader.js",
+  "/games/pcraft/Build/Build.wasm.unityweb": "/Build/Build.wasm.unityweb",
+  "/games/pcraft/index.html": "/index.html",
+  "/png/logo.png": "/__site__/png/logo.png",
+  "https://truffled.lol/404": "/Build/Build.data.unityweb",
+  "https://truffled.lol/css/404.css": "/__site__/css/404.css",
+  "https://truffled.lol/games/pcraft/Build/Build.data.unityweb": "/Build/Build.data.unityweb",
+  "https://truffled.lol/games/pcraft/Build/Build.data.unityweb.part000": "/Build/Build.data.unityweb.part000",
+  "https://truffled.lol/games/pcraft/Build/Build.data.unityweb.part001": "/Build/Build.data.unityweb.part001",
+  "https://truffled.lol/games/pcraft/Build/Build.framework.js.unityweb": "/Build/Build.framework.js.unityweb",
+  "https://truffled.lol/games/pcraft/Build/Build.loader.js": "/Build/Build.loader.js",
+  "https://truffled.lol/games/pcraft/Build/Build.wasm.unityweb": "/Build/Build.wasm.unityweb",
+  "https://truffled.lol/games/pcraft/index.html": "/index.html",
+  "https://truffled.lol/png/logo.png": "/__site__/png/logo.png"
+}

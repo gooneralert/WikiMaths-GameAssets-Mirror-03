@@ -1,0 +1,172 @@
+{
+  "slug": "the-legend-of-zelda-twilight-princess",
+  "title": "The Legend of Zelda: Twilight Princess",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/dusk/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/dusk/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/tpdusk.webp",
+  "baseUrl": "https://truffled.lol/games/dusk/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/dusk/index.html",
+  "status": "done",
+  "sizeBytes": 56030552,
+  "assetCount": 32,
+  "known404": [
+    "https://truffled.lol/config.json",
+    "https://truffled.lol/games/app.wasm",
+    "https://truffled.lol/games/app.async.wasm",
+    "https://truffled.lol/games/dusk/datafile_dusklight.data",
+    "https://truffled.lol/res/AlegreyaSC-Bold.ttf",
+    "https://truffled.lol/res/FiraSans-Bold.ttf",
+    "https://truffled.lol/res/AlegreyaSC-Regular.ttf",
+    "https://truffled.lol/res/FiraSans-Regular.ttf",
+    "https://truffled.lol/res/FiraSansCondensed-Bold.ttf",
+    "https://truffled.lol/res/FiraSansCondensed-Regular.ttf",
+    "https://truffled.lol/res/Inter-Bold.ttf",
+    "https://truffled.lol/res/Inter-Regular.ttf",
+    "https://truffled.lol/res/icon.png",
+    "https://truffled.lol/res/MaterialSymbolsRounded-Regular.ttf",
+    "https://truffled.lol/res/NotoMono-Regular.ttf",
+    "https://truffled.lol/res/logo.png",
+    "https://truffled.lol/res/org-icon-center.png",
+    "https://truffled.lol/res/org-icon-outer.png",
+    "https://truffled.lol/res/org-icon-inner.png",
+    "https://truffled.lol/res/org-icon.png",
+    "https://truffled.lol/res/prelaunch-bg.png"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/config.json",
+      "error": "HTTP 404 for https://truffled.lol/config.json",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/app.wasm",
+      "error": "HTTP 404 for https://truffled.lol/games/app.wasm",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/app.async.wasm",
+      "error": "HTTP 404 for https://truffled.lol/games/app.async.wasm",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/dusk/datafile_dusklight.data",
+      "error": "HTTP 404 for https://truffled.lol/games/dusk/datafile_dusklight.data",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/AlegreyaSC-Bold.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/AlegreyaSC-Bold.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/FiraSans-Bold.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/FiraSans-Bold.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/AlegreyaSC-Regular.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/AlegreyaSC-Regular.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/FiraSans-Regular.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/FiraSans-Regular.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/FiraSansCondensed-Bold.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/FiraSansCondensed-Bold.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/FiraSansCondensed-Regular.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/FiraSansCondensed-Regular.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/Inter-Bold.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/Inter-Bold.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/Inter-Regular.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/Inter-Regular.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/icon.png",
+      "error": "HTTP 404 for https://truffled.lol/res/icon.png",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/MaterialSymbolsRounded-Regular.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/MaterialSymbolsRounded-Regular.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/NotoMono-Regular.ttf",
+      "error": "HTTP 404 for https://truffled.lol/res/NotoMono-Regular.ttf",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/logo.png",
+      "error": "HTTP 404 for https://truffled.lol/res/logo.png",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/org-icon-center.png",
+      "error": "HTTP 404 for https://truffled.lol/res/org-icon-center.png",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/org-icon-outer.png",
+      "error": "HTTP 404 for https://truffled.lol/res/org-icon-outer.png",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/org-icon-inner.png",
+      "error": "HTTP 404 for https://truffled.lol/res/org-icon-inner.png",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/org-icon.png",
+      "error": "HTTP 404 for https://truffled.lol/res/org-icon.png",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/res/prelaunch-bg.png",
+      "error": "HTTP 404 for https://truffled.lol/res/prelaunch-bg.png",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-18T00:59:05.420Z",
+  "verifiedAt": "2026-11-18T07:19:25.445Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Dusklight v1.3.1-82-dirty [WebGPU]",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1216,
+      "height": 896
+    },
+    "nonBlack": "err:Failed to execute 'getContext' on 'HTMLCanvasElement': Cannot get context from a canvas that has transferred its control to offscreen.",
+    "screenshotNonBlack": 0.9934,
+    "rendered": true
+  }
+}

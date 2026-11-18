@@ -1,0 +1,82 @@
+{
+  "slug": "repo",
+  "title": "REPO",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/repo/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/repo/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/repo.webp",
+  "baseUrl": "https://truffled.lol/games/repo/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/repo/index.html",
+  "status": "done",
+  "sizeBytes": 42529146,
+  "assetCount": 58,
+  "known404": [
+    "https://truffled.lol/games/repo/Build/123.data.gz",
+    "https://truffled.lol/123.loader.js",
+    "https://truffled.lol/123.data.gz",
+    "https://truffled.lol/123.framework.js.gz",
+    "https://truffled.lol/123.wasm.gz",
+    "https://truffled.lol/games/repo/Build/build.wasm"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/repo/Build/123.data.gz",
+      "error": "HTTP 404 for https://truffled.lol/games/repo/Build/123.data.gz",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/123.loader.js",
+      "error": "HTTP 404 for https://truffled.lol/123.loader.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/123.data.gz",
+      "error": "HTTP 404 for https://truffled.lol/123.data.gz",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/123.framework.js.gz",
+      "error": "HTTP 404 for https://truffled.lol/123.framework.js.gz",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/123.wasm.gz",
+      "error": "HTTP 404 for https://truffled.lol/123.wasm.gz",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/repo/Build/build.wasm",
+      "error": "HTTP 404 for https://truffled.lol/games/repo/Build/build.wasm",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-17T19:33:12.412Z",
+  "verifiedAt": "2026-11-17T19:33:22.275Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 1,
+    "title": "Unity WebGL Player | REPO",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 960,
+      "height": 600
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 0.0102,
+    "rendered": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "/games/slender/index.html": "/index.html",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.code.unityweb": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.code.unityweb",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.framework.unityweb": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.framework.unityweb",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.memory.unityweb": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.memory.unityweb",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.data.unityweb.part1": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.data.unityweb.part1",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.data.unityweb.part2": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.data.unityweb.part2",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/UnityLoader.js": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/UnityLoader.js",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/UnityProgress.js": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/UnityProgress.js",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/favicon.ico": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/favicon.ico",
+  "https://cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/fullscreen.png": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/fullscreen.png",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/Build/Build.asm.code.unityweb": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.code.unityweb",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/Build/Build.asm.framework.unityweb": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.framework.unityweb",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/Build/Build.asm.memory.unityweb": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.asm.memory.unityweb",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/Build/Build.data.unityweb.part1": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.data.unityweb.part1",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/Build/Build.data.unityweb.part2": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/Build.data.unityweb.part2",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/Build/UnityLoader.js": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/Build/UnityLoader.js",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/TemplateData/UnityProgress.js": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/UnityProgress.js",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/TemplateData/favicon.ico": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/favicon.ico",
+  "https://raw.githubusercontent.com/genizy/web-port/main/slender/TemplateData/fullscreen.png": "/__external__/cdn.jsdelivr.net/gh/genizy/web-port@main/slender/TemplateData/fullscreen.png",
+  "https://truffled.lol/games/slender/index.html": "/index.html"
+}

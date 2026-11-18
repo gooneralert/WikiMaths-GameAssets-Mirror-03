@@ -1,0 +1,76 @@
+{
+  "slug": "sonic-world-next",
+  "title": "Sonic World Next",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/swn/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/swn/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/swn.webp",
+  "baseUrl": "https://truffled.lol/games/swn/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/swn/index.html",
+  "status": "done",
+  "sizeBytes": 53694093,
+  "assetCount": 20,
+  "known404": [
+    "https://truffled.lol/games/swn/Sonic%20Worlds%20Next.apple-touch-icon.png",
+    "https://truffled.lol/games/swn/.audio.worklet.js",
+    "https://truffled.lol/games/swn/.worker.js",
+    "https://truffled.lol/games/swn/.side.wasm",
+    "https://truffled.lol/games/swn/godot.audio.worklet.js"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/swn/Sonic%20Worlds%20Next.apple-touch-icon.png",
+      "error": "HTTP 404 for https://truffled.lol/games/swn/Sonic%20Worlds%20Next.apple-touch-icon.png",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/swn/.audio.worklet.js",
+      "error": "HTTP 404 for https://truffled.lol/games/swn/.audio.worklet.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/swn/.worker.js",
+      "error": "HTTP 404 for https://truffled.lol/games/swn/.worker.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/swn/.side.wasm",
+      "error": "HTTP 404 for https://truffled.lol/games/swn/.side.wasm",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/swn/godot.audio.worklet.js",
+      "error": "HTTP 404 for https://truffled.lol/games/swn/godot.audio.worklet.js",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-17T22:46:57.530Z",
+  "verifiedAt": "2026-11-17T22:47:07.427Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Sonic Worlds Next (DEBUG)",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1264,
+      "height": 625
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 0.5701,
+    "rendered": true
+  }
+}

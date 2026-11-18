@@ -1,0 +1,52 @@
+{
+  "slug": "quake",
+  "title": "Quake",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/quake/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/quake/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/quake.webp",
+  "baseUrl": "https://truffled.lol/games/quake/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/quake/index.html",
+  "status": "done",
+  "sizeBytes": 54048091,
+  "assetCount": 24,
+  "known404": [
+    "https://truffled.lol/games/quake/datafile_index.data"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/quake/datafile_index.data",
+      "error": "HTTP 404 for https://truffled.lol/games/quake/datafile_index.data",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-17T18:44:09.925Z",
+  "verifiedAt": "2026-11-17T18:44:20.267Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 4,
+    "title": "Quake",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1024,
+      "height": 768
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 0.7167,
+    "rendered": true
+  }
+}

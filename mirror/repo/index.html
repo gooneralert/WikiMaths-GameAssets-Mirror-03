@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+<script src="/__offline__/bootstrap.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | REPO</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  <!-- repu-pack:begin -->
+    <style id="repu-shell">
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; }
+      body { position: fixed; inset: 0; }
+      #unity-container,
+      #unity-container.unity-desktop {
+        position: absolute; left: 0; top: 0; right: 0; bottom: 0;
+        transform: none; width: 100%; height: 100%;
+      }
+      #unity-canvas { display: block; width: 100%; height: 100%; background: #000; }
+      /* No footer at all: it only held the WebGL logo, the build title and the
+         fullscreen button, and the game fills the tab already. */
+      #unity-footer { display: none; }
+      #unity-warning { max-width: 80vw; }
+    </style>
+    <script>
+/* REPU page bootstrap.
+ *
+ * The player's payloads are too big for one file, so they are stored as 3 MB
+ * parts under Build/chunks/ and described by Build/chunks/manifest.json. This
+ * script puts them back together inside the page: any fetch for a split
+ * payload is answered with a stream that pulls the parts in order and pipes
+ * them through a gzip decoder. Nothing is registered and nothing is stored, so
+ * it works on plain http://localhost and on file:// pages as well - no service
+ * worker, and therefore no secure-context requirement.
+ *
+ * The framework file is pulled in by Unity with a <script> tag, which the fetch
+ * hook cannot see, so it is fetched and decoded here too.
+ */
+(function () {
+  'use strict';
+
+  var BASE_DIR = new URL('.', document.baseURI).href;
+  var MANIFEST_PATH = 'Build/chunks/manifest.json';
+  // Parts in flight at once: 8 x 3 MB, small next to what Unity buffers.
+  var PART_CONCURRENCY = 8;
+  var PART_ATTEMPTS = 4;
+  var nativeFetch = window.fetch ? window.fetch.bind(window) : null;
+  var manifestPromise = null;
+  var started = false;
+  var instance = null;
+
+  function resolve(path) {
+    return new URL(path, BASE_DIR).href;
+  }
+
+  function banner(message) {
+    console.error('[repu] ' + message);
+    var host = document.querySelector('#unity-warning');
+    if (!host) {
+      return;
+    }
+    var line = document.createElement('div');
+    line.textContent = message;
+    line.style.cssText =
+      'background:#7f1d1d;color:#fff;padding:10px 14px;font:14px/1.4 system-ui,sans-serif;';
+    host.appendChild(line);
+    host.style.display = 'block';
+  }
+
+  /* Turns a URL into the key used by the manifest ("Build/123.data.gz"), or
+   * null when it is not below the folder this page loads its payloads from. */
+  function keyFor(input) {
+    var href = typeof input === 'string' ? input : input && input.url;
+    if (!href) {
+      return null;
+    }
+    var url, base;
+    try {
+      url = new URL(href, BASE_DIR);
+      base = new URL(BASE_DIR);
+    } catch (err) {
+      return null;
+    }
+    if (url.origin !== base.origin || url.pathname.indexOf(base.pathname) !== 0) {
+      return null;
+    }
+    return decodeURIComponent(url.pathname.slice(base.pathname.length)).replace(/^\/+/, '');
+  }
+
+  function loadManifest() {
+    if (!manifestPromise) {
+      manifestPromise = nativeFetch(resolve(MANIFEST_PATH), { cache: 'no-store' }).then(function (res) {
+        if (!res.ok) {
+          throw new Error('chunk manifest -> HTTP ' + res.status);
+        }
+        return res.json();
+      });
+      manifestPromise.catch(function () {
+        manifestPromise = null;
+      });
+    }
+    return manifestPromise;
+  }
+
+  /* Parts are fetched several at a time and handed to the consumer in order.
+   * A 3 MB part over the internet is mostly round trip, so waiting for each
+   * one before requesting the next leaves the connection idle. Unity still
+   * sees one continuous stream, and only a few parts are held in memory. */
+  function fetchPart(path, signal, attempt) {
+    return nativeFetch(resolve(path), { cache: 'default', signal: signal }).then(function (res) {
+      if (!res.ok) {
+        var err = new Error('chunk part ' + path + ' -> HTTP ' + res.status);
+        // A CDN edge answers 403/429 for a file it serves fine a moment later;
+        // retrying those is what keeps one bad edge from killing the load.
+        err.retryable = res.status === 403 || res.status === 408 ||
+          res.status === 429 || res.status >= 500;
+        throw err;
+      }
+      return res.arrayBuffer();
+    }).catch(function (err) {
+      if (err.name === 'AbortError' || err.retryable === false || attempt >= PART_ATTEMPTS) {
+        throw err;
+      }
+      // 250 ms, then 1 s, then 2.25 s.
+      return new Promise(function (ready) {
+        setTimeout(ready, 250 * attempt * attempt);
+      }).then(function () {
+        return fetchPart(path, signal, attempt + 1);
+      });
+    });
+  }
+
+  function partStream(entry) {
+    var parts = entry.parts;
+    var pending = [];
+    var started = 0;
+    var next = 0;
+    var begun = Date.now();
+    var finished = false;
+    var abort = new AbortController();
+
+    function fill() {
+      while (started < parts.length && started < next + PART_CONCURRENCY) {
+        pending[started] = fetchPart(parts[started], abort.signal, 1).then(function (buf) {
+          return new Uint8Array(buf);
+        });
+        pending[started].catch(function () {});
+        started++;
+      }
+    }
+
+    return new ReadableStream({
+      start: fill,
+      pull: function (controller) {
+        if (next >= parts.length) {
+          if (!finished) {
+            finished = true;
+            console.log('[repu] streamed ' + parts.length + ' parts in ' +
+              ((Date.now() - begun) / 1000).toFixed(1) + ' s');
+          }
+          controller.close();
+          return undefined;
+        }
+        var index = next++;
+        fill();
+        return pending[index].then(function (bytes) {
+          pending[index] = null;
+          controller.enqueue(bytes);
+          fill();
+        }).catch(function (err) {
+          console.error('[repu] chunk stream failed:', err);
+          controller.error(err);
+        });
+      },
+      cancel: function () {
+        abort.abort();
+        pending = [];
+      }
+    });
+  }
+
+  function chunkedResponse(entry) {
+    var stream = partStream(entry);
+    if (entry.encoding === 'gzip') {
+      stream = stream.pipeThrough(new DecompressionStream('gzip'));
+    }
+    var headers = new Headers();
+    headers.set('Content-Type', entry.type || 'application/octet-stream');
+    headers.set('Cache-Control', 'no-cache');
+    // Unity sizes its download buffer from Content-Length, so report the
+    // decoded size rather than the on-disk one.
+    if (entry.decoded) {
+      headers.set('Content-Length', String(entry.decoded));
+    }
+    return new Response(stream, { status: 200, statusText: 'OK', headers: headers });
+  }
+
+  function installFetchHook() {
+    if (!nativeFetch || window.__repuFetchHooked) {
+      return;
+    }
+    window.__repuFetchHooked = true;
+
+    window.fetch = function (input, init) {
+      var method = String((init && init.method) || 'GET').toUpperCase();
+      var key = method === 'GET' || method === 'HEAD' ? keyFor(input) : null;
+      if (!key) {
+        return nativeFetch(input, init);
+      }
+      return loadManifest().then(function (manifest) {
+        var entry = manifest.files && manifest.files[key];
+        if (!entry) {
+          return nativeFetch(input, init);
+        }
+        if (method === 'HEAD') {
+          // Unity revalidates its own cache with a HEAD before it reuses it.
+          return new Response(null, {
+            status: 200,
+            headers: { 'Content-Type': entry.type || 'application/octet-stream' }
+          });
+        }
+        return chunkedResponse(entry);
+      });
+    };
+  }
+
+  /* The framework is a single small .gz; decode it and hand Unity a blob URL so
+   * it is treated as plain JavaScript rather than pre-compressed content. */
+  function prepareFramework(config) {
+    return nativeFetch(resolve(config.frameworkUrl)).then(function (res) {
+      if (!res.ok) {
+        throw new Error('framework -> HTTP ' + res.status);
+      }
+      return res.arrayBuffer();
+    }).then(function (buffer) {
+      var head = new Uint8Array(buffer, 0, 2);
+      var source;
+      if (head[0] === 0x1f && head[1] === 0x8b) {
+        source = new Response(
+          new Blob([buffer]).stream().pipeThrough(new DecompressionStream('gzip'))
+        ).text();
+      } else {
+        // A server that already sent Content-Encoding: gzip lands here.
+        source = Promise.resolve(new TextDecoder().decode(buffer));
+      }
+      return source;
+    }).then(function (text) {
+      config.frameworkUrl = URL.createObjectURL(new Blob([text], { type: 'text/javascript' }));
+    });
+  }
+
+  function resizeCanvas() {
+    if (!instance) {
+      return;
+    }
+    var canvas = document.querySelector('#unity-canvas');
+    if (!canvas) {
+      return;
+    }
+    var dpr = window.devicePixelRatio || 1;
+    var w = Math.max(1, Math.round(canvas.clientWidth * dpr));
+    var h = Math.max(1, Math.round(canvas.clientHeight * dpr));
+    if (canvas.width === w && canvas.height === h) {
+      return;
+    }
+    try {
+      // Third argument keeps the element's CSS size alone; the stylesheet
+      // owns that, we only resize the drawing buffer.
+      instance.Module.setCanvasSize(w, h, true);
+    } catch (err) {
+      console.warn('[repu] resize failed:', err);
+    }
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
+  }
+
+  window.repuOnInstanceReady = function (unityInstance) {
+    instance = unityInstance;
+    window.__repuInstance = unityInstance;
+    var pending = null;
+    window.addEventListener('resize', function () {
+      clearTimeout(pending);
+      pending = setTimeout(resizeCanvas, 120);
+    });
+    window.addEventListener('orientationchange', function () {
+      clearTimeout(pending);
+      pending = setTimeout(resizeCanvas, 300);
+    });
+    resizeCanvas();
+  };
+
+  window.repuStartPlayer = function (config, boot) {
+    if (started) {
+      return;
+    }
+    started = true;
+
+    if (!nativeFetch || typeof DecompressionStream === 'undefined') {
+      banner('This browser cannot reassemble the split game data (it needs fetch and DecompressionStream).');
+      return;
+    }
+
+    installFetchHook();
+    Promise.all([loadManifest(), prepareFramework(config)])
+      .then(function () {
+        boot();
+      })
+      .catch(function (err) {
+        banner('Could not load the game data (' + ((err && err.message) || err) + '). Serve this folder over http://localhost or https and check that Build/chunks is complete.');
+      });
+  };
+})();
+    </script>
+  <!-- repu-pack:end -->
+  
+
+
+</head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">REPO</div>
+      </div>
+    </div>
+    <script>
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and errors are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/123.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/123.data.gz",
+        frameworkUrl: buildUrl + "/123.framework.js.gz",
+        codeUrl: buildUrl + "/123.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "semiwork",
+        productName: "REPO",
+        productVersion: "0.1",
+        showBanner: unityShowBanner,
+        // The 461 MB data payload never fits in the browser cache that the
+        // loader uses: the write replays the whole download and then fails,
+        // so skip it for the payloads and keep caching for the bundles.
+        cacheControl: function (url) {
+          return url.indexOf(".bundle") >= 0 ? "must-revalidate" : "no-store";
+        },
+      };
+
+      // By default, Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      // If you would like all file writes inside Unity Application.persistentDataPath
+      // directory to automatically persist so that the contents are remembered when
+      // the user revisits the site the next time, uncomment the following line:
+      // config.autoSyncPersistentDataPath = true;
+      // This autosyncing is currently not the default behavior to avoid regressing
+      // existing user projects that might rely on the earlier manual
+      // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
+      // expected to change.
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+        // the page shell keeps the canvas filling the whole tab
+      }
+
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+              }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+                window.__repuInstance = unityInstance;
+                if (window.repuOnInstanceReady) window.repuOnInstanceReady(unityInstance);
+                fullscreenButton.onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      window.repuStartPlayer(config, function () { document.body.appendChild(script); });
+
+    </script>
+  </body>
+</html>

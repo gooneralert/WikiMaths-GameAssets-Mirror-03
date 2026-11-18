@@ -1,0 +1,22 @@
+{
+  "/404": "/.js.html",
+  "/css/404.css": "/__site__/css/404.css",
+  "/games/swn/.js": "/.js.html",
+  "/games/swn/.wasm": "/.wasm.html",
+  "/games/swn/Sonic%20Worlds%20Next.icon.png": "/Sonic Worlds Next.icon.png",
+  "/games/swn/Sonic%20Worlds%20Next.js": "/Sonic Worlds Next.js",
+  "/games/swn/Sonic%20Worlds%20Next.pck": "/Sonic Worlds Next.pck",
+  "/games/swn/Sonic%20Worlds%20Next.wasm": "/Sonic Worlds Next.wasm",
+  "/games/swn/index.html": "/index.html",
+  "/png/logo.png": "/__site__/png/logo.png",
+  "https://truffled.lol/404": "/.js.html",
+  "https://truffled.lol/css/404.css": "/__site__/css/404.css",
+  "https://truffled.lol/games/swn/.js": "/.js.html",
+  "https://truffled.lol/games/swn/.wasm": "/.wasm.html",
+  "https://truffled.lol/games/swn/Sonic%20Worlds%20Next.icon.png": "/Sonic Worlds Next.icon.png",
+  "https://truffled.lol/games/swn/Sonic%20Worlds%20Next.js": "/Sonic Worlds Next.js",
+  "https://truffled.lol/games/swn/Sonic%20Worlds%20Next.pck": "/Sonic Worlds Next.pck",
+  "https://truffled.lol/games/swn/Sonic%20Worlds%20Next.wasm": "/Sonic Worlds Next.wasm",
+  "https://truffled.lol/games/swn/index.html": "/index.html",
+  "https://truffled.lol/png/logo.png": "/__site__/png/logo.png"
+}

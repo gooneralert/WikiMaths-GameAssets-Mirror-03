@@ -1,0 +1,58 @@
+{
+  "slug": "potion-craft-alchemy-simulator",
+  "title": "Potion Craft Alchemy Simulator",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/pcraft/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/pcraft/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/pcraft.webp",
+  "baseUrl": "https://truffled.lol/games/pcraft/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/pcraft/index.html",
+  "status": "done",
+  "sizeBytes": 41711570,
+  "assetCount": 20,
+  "known404": [
+    "https://truffled.lol/games/pcraft/Build/brotli_wasm_bg.wasm",
+    "https://truffled.lol/games/pcraft/Build/Build/brotli.wasm"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/pcraft/Build/brotli_wasm_bg.wasm",
+      "error": "HTTP 404 for https://truffled.lol/games/pcraft/Build/brotli_wasm_bg.wasm",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/pcraft/Build/Build/brotli.wasm",
+      "error": "HTTP 404 for https://truffled.lol/games/pcraft/Build/Build/brotli.wasm",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-17T18:27:00.922Z",
+  "verifiedAt": "2026-11-17T18:28:07.447Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Unity WebGL Player | Potion Craft",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 300,
+      "height": 150
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 1,
+    "rendered": true
+  }
+}

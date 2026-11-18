@@ -1,0 +1,22 @@
+{
+  "/404": "/Build/.unityweb.html",
+  "/css/404.css": "/__site__/css/404.css",
+  "/games/rerun/Build/.unityweb": "/Build/.unityweb.html",
+  "/games/rerun/Build/UnityLoader.js": "/Build/UnityLoader.js",
+  "/games/rerun/Build/rerun.data.unityweb": "/Build/rerun.data.unityweb",
+  "/games/rerun/Build/rerun.json": "/Build/rerun.json",
+  "/games/rerun/Build/rerun.wasm.code.unityweb": "/Build/rerun.wasm.code.unityweb",
+  "/games/rerun/Build/rerun.wasm.framework.unityweb": "/Build/rerun.wasm.framework.unityweb",
+  "/games/rerun/index.html": "/index.html",
+  "/png/logo.png": "/__site__/png/logo.png",
+  "https://truffled.lol/404": "/Build/.unityweb.html",
+  "https://truffled.lol/css/404.css": "/__site__/css/404.css",
+  "https://truffled.lol/games/rerun/Build/.unityweb": "/Build/.unityweb.html",
+  "https://truffled.lol/games/rerun/Build/UnityLoader.js": "/Build/UnityLoader.js",
+  "https://truffled.lol/games/rerun/Build/rerun.data.unityweb": "/Build/rerun.data.unityweb",
+  "https://truffled.lol/games/rerun/Build/rerun.json": "/Build/rerun.json",
+  "https://truffled.lol/games/rerun/Build/rerun.wasm.code.unityweb": "/Build/rerun.wasm.code.unityweb",
+  "https://truffled.lol/games/rerun/Build/rerun.wasm.framework.unityweb": "/Build/rerun.wasm.framework.unityweb",
+  "https://truffled.lol/games/rerun/index.html": "/index.html",
+  "https://truffled.lol/png/logo.png": "/__site__/png/logo.png"
+}

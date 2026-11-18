@@ -1,0 +1,82 @@
+{
+  "slug": "to-the-core",
+  "title": "To The Core",
+  "type": "HTML",
+  "developer": "",
+  "description": "",
+  "tags": [],
+  "controls": [],
+  "gamepadControls": [],
+  "controllerSupport": false,
+  "sourceId": "truffled:/games/tothecore/index.html",
+  "source": "truffled",
+  "sourceVersion": "1",
+  "sourceUrl": "https://truffled.lol/games/tothecore/index.html",
+  "sourceThumbnail": "https://truffled.lol/png/games/to.webp",
+  "baseUrl": "https://truffled.lol/games/tothecore/",
+  "entry": "/index.html",
+  "entryUrl": "https://truffled.lol/games/tothecore/index.html",
+  "status": "done",
+  "sizeBytes": 53270517,
+  "assetCount": 10,
+  "known404": [
+    "https://truffled.lol/games/tothecore/Build/utils/strings.js",
+    "https://truffled.lol/games/tothecore/Build/zlib/inflate.js",
+    "https://truffled.lol/games/tothecore/Build/zlib/constants.js",
+    "https://truffled.lol/games/tothecore/Build/zlib/messages.js",
+    "https://truffled.lol/games/tothecore/Build/zlib/zstream.js",
+    "https://truffled.lol/games/tothecore/Build/zlib/inftrees.js"
+  ],
+  "failed": [
+    {
+      "url": "https://truffled.lol/games/tothecore/Build/utils/strings.js",
+      "error": "HTTP 404 for https://truffled.lol/games/tothecore/Build/utils/strings.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/tothecore/Build/zlib/inflate.js",
+      "error": "HTTP 404 for https://truffled.lol/games/tothecore/Build/zlib/inflate.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/tothecore/Build/zlib/constants.js",
+      "error": "HTTP 404 for https://truffled.lol/games/tothecore/Build/zlib/constants.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/tothecore/Build/zlib/messages.js",
+      "error": "HTTP 404 for https://truffled.lol/games/tothecore/Build/zlib/messages.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/tothecore/Build/zlib/zstream.js",
+      "error": "HTTP 404 for https://truffled.lol/games/tothecore/Build/zlib/zstream.js",
+      "status": 404
+    },
+    {
+      "url": "https://truffled.lol/games/tothecore/Build/zlib/inftrees.js",
+      "error": "HTTP 404 for https://truffled.lol/games/tothecore/Build/zlib/inftrees.js",
+      "status": 404
+    }
+  ],
+  "mirroredAt": "2026-11-18T01:15:20.431Z",
+  "verifiedAt": "2026-11-18T01:16:26.813Z",
+  "verification": {
+    "external": 0,
+    "blocking": 0,
+    "ignoredExternal": 0,
+    "local404": 0,
+    "expected404": 0,
+    "failures": 0,
+    "title": "Unity WebGL Player | ToTheCore",
+    "crossOriginIsolated": true,
+    "sharedArrayBuffer": "function",
+    "canvas": {
+      "width": 1250,
+      "height": 625
+    },
+    "nonBlack": 0,
+    "screenshotNonBlack": 1,
+    "rendered": true
+  }
+}
